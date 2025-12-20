@@ -1,0 +1,13 @@
+PS C:\Users\emredogan\Desktop\itu_master\fuzzlogicproject> & C:/Users/emredogan/AppData/Local/Programs/Python/Python310/python.exe c:/Users/emredogan/Desktop/itu_master/fuzzlogicproject/test_rcf_biped.py
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████| 50/50 [00:38<00:00,  1.30it/s]
+
+==================================================
+TEST SONUÇLARI (ORTALAMA)
+==================================================
+Test Edilen Görüntü Sayısı: 50
+MSE  : 0.154235 ± 0.010369
+PSNR : 8.1285 dB ± 0.3043
+SSIM : 0.002961 ± 0.000647
+==================================================
+
+✓ Test tamamlandı, sonuçlar kaydedildi: biped_rcf_results

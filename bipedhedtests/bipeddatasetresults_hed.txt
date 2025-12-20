@@ -1,0 +1,19 @@
+ogan/Desktop/itu_master/fuzzlogicproject/test_hed_biped.py
+Model yükleniyor...
+Test görüntüleri bulunuyor...
+Test listesi: biped_dataset\BIPED\BIPED\edges\test_rgb.lst
+Toplam 50 görüntü test edilecek
+
+Test başlıyor...
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████| 50/50 [01:51<00:00,  2.23s/it]
+
+============================================================
+SONUÇLAR
+============================================================
+Test Edilen Görüntü: 50
+MSI  : 0.085973 ± 0.019120
+PSNR : 10.8008 dB ± 1.2409
+SSIM : 0.379194 ± 0.102225
+============================================================
+
+✓ Sonuçlar kaydedildi: biped_results/

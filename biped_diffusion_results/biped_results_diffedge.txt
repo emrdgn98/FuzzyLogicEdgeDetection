@@ -1,0 +1,26 @@
+Load swin_transformer: <All keys matched successfully>
+swin
+✓ EMA weights yüklendi
+✓ Model hazır
+
+✓ 50 görüntü çifti bulundu
+
+==================================================
+DiffusionEdge ile BIPED testi başlatılıyor...
+==================================================
+Test ediliyor: 100%|████████████████████████████████████████████████████████████████████████████████████████████| 50/50 [01:57<00:00,  2.35s/it] 
+
+==================================================
+BIPED DIFFUSIONEDGE TEST SONUÇLARI (ORTALAMA)
+==================================================
+Test Edilen Görüntü Sayısı: 50
+MSE  : 0.035216 ± 0.011005
+PSNR : 14.7729 dB ± 1.5349
+SSIM : 0.698833 ± 0.075195
+==================================================
+
+✓ Test tamamlandı!
+✓ Sonuçlar kaydedildi: biped_diffusion_results
+✓ Detaylı JSON raporu: biped_diffusion_results\biped_diffusion_results.json
+✓ Özet JSON raporu: biped_diffusion_results\summary_results.json
+PS C:\Users\emredogan\Desktop\itu_master\fuzzlogicproject> 
