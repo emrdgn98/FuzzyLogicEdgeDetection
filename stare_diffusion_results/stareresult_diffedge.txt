@@ -1,0 +1,27 @@
+Downloading: "https://download.pytorch.org/models/swin_b-68c6b09e.pth" to C:\Users\emredogan/.cache\torch\hub\checkpoints\swin_b-68c6b09e.pth
+100%|████████████████████████████████████████████████████████████████████████████████████████████████████████| 335M/335M [02:17<00:00, 2.55MB/s]
+Load swin_transformer: <All keys matched successfully>
+swin
+✓ EMA weights yüklendi
+✓ Model hazır
+
+✓ 20 görüntü çifti bulundu
+
+==================================================
+DiffusionEdge ile STARE testi başlatılıyor...
+==================================================
+Test ediliyor: 100%|████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:46<00:00,  2.30s/it] 
+
+==================================================
+STARE DIFFUSIONEDGE TEST SONUÇLARI (ORTALAMA)
+==================================================
+Test Edilen Görüntü Sayısı: 20
+MSE  : 0.113735 ± 0.030159
+PSNR : 9.6196 dB ± 1.2973
+SSIM : 0.602771 ± 0.073448
+==================================================
+
+✓ Test tamamlandı!
+✓ Sonuçlar kaydedildi: stare_diffusion_results
+✓ JSON raporu: stare_diffusion_results\stare_diffusion_results.json
+PS C:\Users\emredogan\Desktop\itu_master\fuzzlogicproject> 

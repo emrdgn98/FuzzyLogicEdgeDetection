@@ -1,0 +1,20 @@
+PS C:\Users\emredogan\Desktop\itu_master\fuzzlogicproject> & C:/Users/emredogan/AppData/Local/Programs/Python/Python310/python.exe c:/Users/emredogan/Desktop/itu_master/fuzzlogicproject/test_hed_stare.py
+Model yükleniyor...
+STARE pairs bulunuyor...
+Raw images: C:\Users\emredogan\Desktop\itu_master\fuzzlogicproject\stare\stare_raw
+GT labels : C:\Users\emredogan\Desktop\itu_master\fuzzlogicproject\stare\stare_vk
+Toplam 20 görüntü test edilecek
+100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:21<00:00,  1.07s/it]
+
+==================================================
+STARE (VK) RESULTS
+==================================================
+Images   : 20
+Precision: 0.0519
+Recall   : 0.0174
+F1-score : 0.0250
+MSE      : 0.116751
+PSNR     : 9.4920 dB
+SSIM     : 0.5208
+==================================================
+PS C:\Users\emredogan\Desktop\itu_master\fuzzlogicproject> 

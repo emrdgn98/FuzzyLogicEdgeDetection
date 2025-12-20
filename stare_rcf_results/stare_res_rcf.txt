@@ -1,0 +1,29 @@
+PS C:\Users\emredogan\Desktop\itu_master\fuzzlogicproject> & C:/Users/emredogan/AppData/Local/Programs/Python/Python310/python.exe c:/Users/emredogan/Desktop/itu_master/fuzzlogicproject/test_rcf_stare.py
+
+Cihaz: cuda
+STARE Root: C:\Users\emredogan\Desktop\itu_master\fuzzlogicproject\stare
+Model Path: C:\Users\emredogan\Desktop\itu_master\fuzzlogicproject\bsds500_pascal_model.pth
+
+Model yükleniyor...
+✓ Model yüklendi
+
+✓ 20 görüntü çifti bulundu
+
+==================================================
+RCF ile STARE testi başlatılıyor...
+==================================================
+Test ediliyor: 100%|████████████████████████████████████████████████████████████████████████████████████████████| 20/20 [00:07<00:00,  2.64it/s] 
+
+==================================================
+STARE RCF TEST SONUÇLARI (ORTALAMA)
+==================================================
+Test Edilen Görüntü Sayısı: 20
+MSE  : 0.166973 ± 0.010869
+PSNR : 7.7830 dB ± 0.2895
+SSIM : 0.007223 ± 0.003411
+==================================================
+
+✓ Test tamamlandı!
+✓ Sonuçlar kaydedildi: stare_rcf_results
+✓ JSON raporu: stare_rcf_results\stare_rcf_results.json
+PS C:\Users\emredogan\Desktop\itu_master\fuzzlogicproject> 
